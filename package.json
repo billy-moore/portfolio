@@ -3,7 +3,7 @@
   "version": "1.9.0",
   "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
-  "homepage": "https://billy-moore.github.io/portfolio/",
+  "homepage": "https://billy-moore.github.io/",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.10.0",
