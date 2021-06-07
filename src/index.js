@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 //import { createBrowserHistory } from "history";
-import { Router, HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 //import { hashHistory } from 'react-router-dom'
 
 import "assets/scss/material-kit-react.scss?v=1.9.0";
@@ -15,7 +15,7 @@ import LoginPage from "views/LoginPage/LoginPage.js";
 //var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <HashRouter >
+  <HashRouter basename='/'>
     <Switch>
       <Route path="/projects-page" component={ProjectsPage} />
       <Route path="/profile-page" component={ProfilePage} />
