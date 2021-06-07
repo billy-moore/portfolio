@@ -1,21 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createBrowserHistory } from "history";
-import { Route, Switch } from "react-router-dom";
+//import { createBrowserHistory } from "history";
+import { Router, Route, Switch } from "react-router-dom";
+import { hashHistory } from 'react-dom'
 
 import "assets/scss/material-kit-react.scss?v=1.9.0";
 
-import { HashRouter as Router } from 'react-router-dom'
 // pages for this product
 import Components from "views/Components/Components.js";
 import ProjectsPage from "views/ProjectsPage/ProjectsPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 
-var hist = createBrowserHistory();
+//var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={hist}>
+  <Router history={hashHistory}>
     <Switch>
       <Route path="/projects-page" component={ProjectsPage} />
       <Route path="/profile-page" component={ProfilePage} />
