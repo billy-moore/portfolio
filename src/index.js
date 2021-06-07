@@ -15,7 +15,7 @@ import LoginPage from "views/LoginPage/LoginPage.js";
 //var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <HashRouter basename='/'>
+  <HashRouter>
     <Switch>
       <Route path="/projects-page" component={ProjectsPage} />
       <Route path="/profile-page" component={ProfilePage} />
