@@ -36,7 +36,7 @@ export default function ProjectsPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Bill Moore Presents"
+        brand="Billy Moore Presents"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -52,8 +52,8 @@ export default function ProjectsPage(props) {
               <h1 className={classes.title}>Projects</h1>
               <h4>
                 I've been working on projects and tutorials and keep building things. If I'd known when I started
-                that I would want to be serious about all of it, I would have saved more files, and quit deleting CodePens
-                and committed more to Github.
+                that I would want to be serious about all of it, I would have saved more files, and quit deleting CodePens. This page is to 
+                go a little more in-depth on some of the projects that I feel represent what I've been learning and building.
               </h4>
               <br />
             </GridItem>

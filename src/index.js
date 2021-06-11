@@ -8,11 +8,9 @@ import "assets/scss/material-kit-react.scss?v=1.9.0";
 
 // pages for this product
 import Components from "views/Components/Components.js";
-//import ProjectsPage from "views/ProjectsPage/ProjectsPage.js";
-// import ProfilePage from "views/ProfilePage/ProfilePage.js";
-// import LoginPage from "views/LoginPage/LoginPage.js";
 
 import LoadingSpinner from "components/LoadingSpinner/LoadingSpinner";
+
 const ProjectsPage = lazy(() => import('views/ProjectsPage/ProjectsPage.js') )
 const ProfilePage = lazy(() => import('views/ProfilePage/ProfilePage.js') )
 const LoginPage = lazy(() => import('views/LoginPage/LoginPage.js') )
