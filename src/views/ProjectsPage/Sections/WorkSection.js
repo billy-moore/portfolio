@@ -27,7 +27,7 @@ export default function WorkSection() {
                         }}>Contact Me</h2>
                         <h2 className={classes.description}>
                             email:
-                            <a href='mailto:ksbillymoore@gmail.com'>ksbillymoore@gmail.com</a>
+                            <a href='mailto:billmoore@vivaldi.net'>BillMoore@vivaldi.net</a>
                         </h2>
                         <h2 className={classes.description}>
                             <a
