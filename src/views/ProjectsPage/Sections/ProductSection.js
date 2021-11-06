@@ -6,7 +6,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import treasure from 'assets/img/TreasureHunt.jpg'
 import streamCounter from 'assets/img/streamCounter.jpg'
-import pprx from 'assets/img/pprx-screen.jpg'
+import playerQ from 'assets/img/Player-queue.jpg'
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -69,21 +69,21 @@ export default function ProductSection() {
           </GridItem>
 
           <GridItem xs={12} sm={4} style={{paddingTop: '50px'}}>
-          <a href='https://billy-moore.github.io/pprx/' target='_blank' rel="noopener noreferrer" className={classes.link}>
+          <a href='https://github.com/billy-moore/player-queue.git' target='_blank' rel="noopener noreferrer" className={classes.link}>
                 <img
-                  src={pprx}
+                  src={playerQ}
                   alt="..."
                   style={{width:'100%', borderRadius: '10px', border: 'solid 2px #e4e4e4'}}
                 />
-                <h3>Paper Outlining App</h3>
+                <h3>Player Queue App</h3>
                 </a>
           </GridItem>
           <GridItem xs={12} sm={8} style={{color: 'black'}}>
-              <h3>PPRx Paper Constructing App</h3>
-              <p>This is an app that I've been messing around with for a while. It's still very much a work in progress, but I just hooked it up to a Firebase realtime-database, and will continue to hack away at it. I had students struggling with 
-                some basic paper structure, and paper writing problems, and I teach a very basic, broken down method, designed on a functional programming model. So I thought "of course, I can make an app for that!" The concept is to be able to add
-                your Main Points, then build out multiple sub-points, and then copy and paste quotes, or citations into each of the content areas. There will also be drag-and-drop functionality. Once your paper structure is complete, you'll be able to 
-                export it as a Word document, complete with bolded subject heads, bulleted lists, and a Works Cited/Reference page. But again: work in progress
+              <h3>Player Qeue</h3>
+              <p>I managed a bunch of kids who wanted to play the popular game "Smash Bros." and there were always
+                more kids than controllers. This app was a way to make sure everyone got their turn. The app allows for
+                users to input names, and queus the names accordingly. You can hold/lock players into position, add more names 
+                and even remove or add controller spots as needed. Uses React, Material-UI and React Context. 
               </p>
           </GridItem>
         </GridContainer>
