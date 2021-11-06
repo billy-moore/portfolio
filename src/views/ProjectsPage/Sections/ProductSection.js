@@ -79,7 +79,7 @@ export default function ProductSection() {
                 </a>
           </GridItem>
           <GridItem xs={12} sm={8} style={{color: 'black'}}>
-              <h3>Player Qeue</h3>
+              <h3>Player Queue</h3>
               <p>I managed a bunch of kids who wanted to play the popular game "Smash Bros." and there were always
                 more kids than controllers. This app was a way to make sure everyone got their turn. The app allows for
                 users to input names, and queus the names accordingly. You can hold/lock players into position, add more names 
