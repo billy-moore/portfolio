@@ -77,7 +77,7 @@ export default function SectionLogin() {
                   }
                 />
                 <Button color="white" size="lg" simple>
-                  View my Paper Writing App
+                  View my Player Queue app
                 </Button>
               </a>
           </GridItem>
