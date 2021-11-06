@@ -75,7 +75,7 @@ export default function SectionLogin() {
                     " " +
                     classes.imgFluid
                   }
-                />
+                /> 
                 <Button color="white" size="lg" simple>
                   View my Player Queue app
                 </Button>
