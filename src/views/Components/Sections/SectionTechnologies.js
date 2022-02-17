@@ -18,6 +18,9 @@ import materialLogo from 'assets/img/logos/material-logo.png'
 import bootstrapLogo from 'assets/img/logos/bootstrap-logo.png'
 import sassLogo from 'assets/img/logos/sass-logo.png'
 import FirebaseLogo from 'assets/img/logos/firebase-logo.png'
+import Node from 'assets/img/logos/node.png'
+import Git from 'assets/img/logos/git-logo.png'
+import Mongo from 'assets/img/logos/MongoDB.png'
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/completedStyle.js";
 
@@ -42,7 +45,18 @@ export default function SectionTechnologies() {
                     <img src={ReactLogo} style={{height: 100}} alt='react-logo' />
                     <Typography variant='h4'>React</Typography>
                 </GridItem>
-                
+                <GridItem xs={6} sm={4} md={3}>
+                    <img src={ReduxLogo} style={{height: 100}} alt='redux-logo' />
+                    <Typography variant='h4'>Redux</Typography>
+                </GridItem>
+                <GridItem xs={6} sm={4} md={3}>
+                    <img src={Node} style={{height: 100}} alt='redux-logo' />
+                    <Typography variant='h4'>Node</Typography>
+                </GridItem>
+                <GridItem xs={6} sm={4} md={3}>
+                    <img src={Git} style={{height: 100}} alt='JS-logo' />
+                    <Typography variant='h4'>Git</Typography>
+                </GridItem>
                 <GridItem xs={6} sm={4} md={3}>
                     <img src={JavaScript} style={{height: 100}} alt='JS-logo' />
                     <Typography variant='h4'>JavaScript</Typography>
@@ -63,6 +77,7 @@ export default function SectionTechnologies() {
                     <img src={bootstrapLogo} style={{height: 100}} alt='html-logo' />
                     <Typography variant='h4'>Bootstrap</Typography>
                 </GridItem>
+                
                 </GridContainer>
         <GridContainer justify="center" style={{marginTop: '1rem'}}>
             <GridItem xs={12} sm={12} md={8}>
@@ -73,10 +88,7 @@ export default function SectionTechnologies() {
             </GridItem>
             </GridContainer>
             <GridContainer justify='center'>
-            <GridItem xs={6} sm={4} md={3}>
-                    <img src={ReduxLogo} style={{height: 100}} alt='redux-logo' />
-                    <Typography variant='h4'>Redux</Typography>
-                </GridItem>
+           
                 <GridItem xs={6} sm={4} md={3}>
                     <img src={sassLogo} style={{height: 100}} alt='css-logo' />
                     <Typography variant='h4'>Sass</Typography>
@@ -85,7 +97,10 @@ export default function SectionTechnologies() {
                     <img src={FirebaseLogo} style={{height: 100}} alt='firebase-logo' />
                     <Typography variant='h4'>Firebase</Typography>
                 </GridItem>
-                
+                <GridItem xs={6} sm={4} md={3}>
+                    <img src={Mongo} style={{height: 100}} alt='firebase-logo' />
+                    <Typography variant='h4'>MongoDB</Typography>
+                </GridItem>
             </GridContainer>
         </div>
     </div>

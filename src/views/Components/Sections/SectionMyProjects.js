@@ -45,7 +45,7 @@ export default function SectionLogin() {
           </GridItem>
 
           <GridItem xs={12} sm={12} md={6}>
-            <a href='https://billy-moore.github.io/stream-counter/' target='_blank' rel="noopener noreferrer" className={classes.link}>
+            <a href='https://billy-moore.github.io/stream-counter' target='_blank' rel="noopener noreferrer" className={classes.link}>
               <img
                 src={streamCounter}
                 alt="..."
