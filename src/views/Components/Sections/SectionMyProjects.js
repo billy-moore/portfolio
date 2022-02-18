@@ -29,7 +29,7 @@ export default function SectionLogin() {
           </ GridItem>
 
           <GridItem xs={12} sm={12} md={6}>
-            <a href='https://billy-moore.github.io/treasure-game/' target='_blank' rel="noopener noreferrer" className={classes.link}>
+            <Link to='projects-page' className={classes.link}>
                 <img
                   src={LibrarySet}
                   alt="library projects"
@@ -44,7 +44,7 @@ export default function SectionLogin() {
                 <Button color="white" size="lg" simple>
                   Projects for the library
                 </Button>
-              </a>
+              </Link>
           </GridItem>
 
           <GridItem xs={12} sm={12} md={6}>
