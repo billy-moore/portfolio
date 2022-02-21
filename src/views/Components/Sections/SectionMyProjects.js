@@ -12,6 +12,7 @@ import treasure from "assets/img/TreasureHunt.jpg";
 import streamCounter from 'assets/img/streamCounter.jpg'
 import playerQueue from 'assets/img/Player-queue.jpg'
 import LibrarySet from 'assets/img/LibraryDouble.png'
+import MovieApp from 'assets/img/MovieApp.png'
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -43,6 +44,25 @@ export default function SectionLogin() {
                 />
                 <Button color="white" size="lg" simple>
                   Projects for the library
+                </Button>
+              </Link>
+          </GridItem>
+
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to='projects-page' className={classes.link}>
+                <img
+                  src={MovieApp}
+                  alt="MERN stack app"
+                  className={
+                    classes.imgRaised +
+                    " " +
+                    classes.imgRounded +
+                    " " +
+                    classes.imgFluid
+                  }
+                />
+                <Button color="white" size="lg" simple>
+                  MERN Stack Movie/Cocktails app
                 </Button>
               </Link>
           </GridItem>

@@ -8,6 +8,7 @@ import treasure from 'assets/img/TreasureHunt.jpg'
 import streamCounter from 'assets/img/streamCounter.jpg'
 import playerQ from 'assets/img/Player-queue.jpg'
 import combo from 'assets/img/comboShot.png'
+import moviesApp from 'assets/img/MovieApp.png'
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -29,24 +30,44 @@ export default function ProductSection() {
           </h5>
         </GridItem>
       </GridContainer> */}
+      
       <div className={classes.container}>
+        
         <GridContainer spacing={3} >
+          <GridItem xs={12} sm={4} >
+              <img
+                  src={combo}
+                  alt="library and book list"
+                  style={{width:'100%', borderRadius: '10px'}}
+                />
+                  <h3 style={{color: 'black'}}>Library Projects</h3>
+            </GridItem>
 
-        <GridItem xs={12} sm={4} >
+            <GridItem xs={12} sm={8} style={{color: 'black'}}>
+              <h3>Library Home Page & Book List generator</h3>
+                  <p>
+                    These projects are very real results of being interested in programming while being a librarian during the day. I took over the library website when I became a librarian, and with only a basic understanding of HTML and CSS, I taught myself how to use bootstrap
+                    and work in the framework of the Libguides structure which is what the library uses to host its site. You can build a perfectly functioning and usable library website with great features, without knowing any code. But then your website looks like every other academic
+                    library website. I designed all the major aspects and used the University's prescibed color palette to make something that was united with the University's marketing materials, but still completely ours. It had to be funcitonal, easy to understand and navigate, dynamic,
+                    and maintanable. <br />
+                    The Book List Generator was a request from our acquisitions librarian. She needed some way to create a visual book list, so she could send an informational email to the entire campus. I said "I think I can make you something." This very basic application takes the Google Books
+                    REST API and allows you to input a book's ISBN number, and choose the correct book cover for the item you selected. It then allows you to modify a few options, delete selections, and then export the document to be saved as a PDF. I put this together in a couple days, error tested
+                    it, we've only used it a couple months and saw an instant increase in usage, inquiries and positive feedback. Plus it cut her production time down to minutes, as opposed to hours, which she was spending copy/pasting images from Amazon.
+                  </p>
+                  <a href='https://cune.libguides.com/home' target='_blank' rel='noopener noreferrer' className={classes.link} >Library Homepage</a>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                  <a href='https://billy-moore.github.io/book-list/' target='_blank' rel='noopener noreferrer' className={classes.link} >Book List Generator</a>
+                  
+            </GridItem>
+
+        {/* <GridItem xs={12} sm={4} >
                 <img
                   src={combo}
                   alt="library and book list"
                   style={{width:'100%', borderRadius: '10px'}}
                 />
-                 <h3 style={{color: 'black'}}>Library Projects</h3>
-                {/* <a href='https://billy-moore.github.io/treasure-game/' target='_blank' rel="noopener noreferrer" className={classes.link}> */}
-               
-                {/* </a> */}
-
-                {/* <a href='https://billy-moore.github.io/treasure-game/' target='_blank' rel="noopener noreferrer" className={classes.link}>
-                <h3>BookList Generator</h3>
-                </a> */}
+                  <h3 style={{color: 'black'}}>Library Projects</h3>
           </GridItem>
+          
           <GridItem xs={12} sm={8} container style={{color: 'black'}}>
             <h3>Library Home Page & Book List generator</h3>
                 <p>
@@ -58,14 +79,38 @@ export default function ProductSection() {
                   REST API and allows you to input a book's ISBN number, and choose the correct book cover for the item you selected. It then allows you to modify a few options, delete selections, and then export the document to be saved as a PDF. I put this together in a couple days, error tested
                   it, we've only used it a couple months and saw an instant increase in usage, inquiries and positive feedback. Plus it cut her production time down to minutes, as opposed to hours, which she was spending copy/pasting images from Amazon.
                 </p>
-                <GridItem xs={6}>
+                  <GridItem xs={6}>
+                      <a href='https://cune.libguides.com/home' target='_blank' rel='noopener noreferrer' className={classes.link}>Library Homepage</a>
+                  </GridItem>
+                    <GridItem xs={6}>
+                      <a href='https://billy-moore.github.io/book-list/' target='_blank' rel='noopener noreferrer' className={classes.link}>Book List Generator</a>
+                    </GridItem>
+          </GridItem> */}
+
+          <GridItem xs={12} sm={4} >
+                <img
+                  src={ moviesApp }
+                  alt="library and book list"
+                  style={{width:'100%', borderRadius: '10px'}}
+                />
+                  <h3 style={{color: 'black'}}>Movie/Cocktails App</h3>
+          </GridItem>
+
+          <GridItem xs={12} sm={8} style={{color: 'black'}}>
+            <h3>MERN Stack app (in production)</h3>
+                <p>
+                  My current project is a complete MERN stack app that combines movies and cocktails into a social platform. React, Express, Node, MongoDB, React Redux, and React Router are the tools that are heavily used in this app. Pulling from TheMovieDb and theCocktailDB, the app (will) allow
+                  users to create watch and/or drink lists, and suggest drinks that should pair with movies, and contains instructions on how to make the drinks. I will host this as soon as it's to a point in development where it would be more useful, but until then you can see my updates <a href='https://github.com/billy-moore/movie-list' target='_blank' rel='noopener noreferrer' className={classes.link}>on github</a>
+                </p>
+                {/* <GridItem xs={6}>
                   <a href='https://cune.libguides.com/home' target='_blank' rel='noopener noreferrer' className={classes.link}>Library Homepage</a>
                 </GridItem>
                   <GridItem xs={6}>
                   <a href='https://billy-moore.github.io/book-list/' target='_blank' rel='noopener noreferrer' className={classes.link}>Book List Generator</a>
 
-                  </GridItem>
+                  </GridItem> */}
           </GridItem>
+
 
           <GridItem xs={12} sm={4} >
           <a href='https://billy-moore.github.io/treasure-game/' target='_blank' rel="noopener noreferrer" className={classes.link}>
@@ -77,6 +122,7 @@ export default function ProductSection() {
                 <h3>Treasure Game</h3>
                 </a>
           </GridItem>
+
           <GridItem xs={12} sm={8} style={{color: 'black'}}>
             <h3>Treasure of the Sergio Monco</h3>
                 <p>The title is a play on Spaghetti Westerns and Treasure of the Sierra Madre. I really wanted to make something to prove I had learned something in React. I came up with the 
