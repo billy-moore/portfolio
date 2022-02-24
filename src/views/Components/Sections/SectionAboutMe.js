@@ -20,9 +20,9 @@ export default function AboutMe() {
           <GridItem xs={12} sm={12} md={8}>
             <h1>A Little About Me</h1>
             <h4>
-                I'm a self-taught frontend developer. I love to create things and learn, and becoming a 
-                software engineer has enabled me to do both. I'm currently working toward fullstack, at least on my own projects,
-                but I'm lookng for a team that creates, designs, and makes awesome user experiences.
+                I'm a self-taught developer that start with basic HTML and CSS markup, moved into Javascript and have been working in React and the MERN stack for the past couple years.
+                I am always learning, challenging myself, and working to make myself a better developer and coder.
+                My goal is to create things that will bring value and beauty to the user.
             </h4>
           </GridItem>
         </GridContainer>
