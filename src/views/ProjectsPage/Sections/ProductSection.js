@@ -128,7 +128,7 @@ export default function ProductSection() {
                 <p>The title is a play on Spaghetti Westerns and Treasure of the Sierra Madre. I really wanted to make something to prove I had learned something in React. I came up with the 
                   mechanics for the game quickly as a push-your-luck game where your high score is tied to your cash on hand. I created everything you see on the screen, the icons, shovels, everything but a very light 8-bit button CSS library. I created the tiles and icons 
                   using <a href='https://www.pixilart.com' alt='...' target='_blank' rel="noopener noreferrer">pixilart.com</a> and then just kept cleaning up code and 
-                  adding as I learned. This was a chance to use and build around React's Context API, learn how to use useReducer and a build around a fun randomization algorithm. It's a fully functioning game that has some really cool features and functionality, while looking really
+                  adding as I learned. This was a chance to use, and build around React's Context API, learn how to use useReducer and a utilize a fun randomization algorithm. It's a fully functioning game that has some really cool features and functionality, while looking
                   nice and tells a fun story.
                 </p>
           </GridItem>
@@ -145,10 +145,10 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={8} style={{color: 'black'}}>
               <h3>Twitch Stream Counter</h3>
-              <p>I needed a stream counter for a live Twitch stream, and realized that all the options were overly complicated
-                and most required Windows, which wasn't an option. "Well, I'm a programmer..." I thought, so I sat down and made one. And 
+              <p>A real world application to fix an issue I was facing at the time. I needed a stream counter for a live Twitch stream, and realized that all the options were overly complicated
+                and most locked as Windows only apps, which wasn't an option. "Well, I'm a programmer..." I thought, so I sat down and made one. And 
                 like every project, it started out as the standard "counter" tutorial then I added a ton of features to cater to 
-                whatever type of stream might be necessary. I used this as an opportunity to learn more about Material-UI. 
+                whatever type of stream might be necessary. I used this as an opportunity to learn more about Material-UI. Also uses Context API, imports a color picking utility, and allows for some cool customization to a simple app.
               </p>
           </GridItem>
 
@@ -164,7 +164,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={8} style={{color: 'black'}}>
               <h3>Player Queue</h3>
-              <p>I managed a bunch of kids who wanted to play the popular game "Smash Bros." and there were always
+              <p>I volunteer with kids, and a popular game was Smash Ultimate. This app also answered a real-world issue, since there were always
                 more kids than controllers. This app was a way to make sure everyone got their turn. The app allows for
                 users to input names, and queus the names accordingly. You can hold/lock players into position, add more names 
                 and even remove or add controller spots as needed. Uses React, Material-UI and React Context. 
