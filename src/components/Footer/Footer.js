@@ -11,7 +11,7 @@ import { Button, List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import resume from 'assets/img/Bill Moore Resume.pdf'
+import resume from 'assets/img/Billy Moore Resume.pdf'
 
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 

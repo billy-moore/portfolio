@@ -91,9 +91,9 @@ export default function ProfilePage(props) {
                 that people want.
               </p>
               <p>
-                I finished a 'beginner to professional' JavaScript course on Udemy and was more 
+                I finished a javascript course on Udemy and was more 
                 excited to get that, than I was my Master's of Education. After that I jumped into learning React, 
-                and that’s when I knew, I need to do this as a career. I love learning - new languages, concepts and techniques (and things outside coding, as well).
+                and that’s when I knew I need to do this as a career. I love learning - new languages, concepts and techniques (and things outside coding, as well).
                 and I've always loved creating and solving problems and finding solutions. It was some of those traits which
                 got me interested in libraries that I got into programming, and because of the education process that I love to 
                 dive in, and learn and explore. I wish I had known about programming earlier, but because of my experiences as a librarian
