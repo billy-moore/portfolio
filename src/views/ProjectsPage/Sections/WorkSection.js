@@ -5,7 +5,7 @@ import {makeStyles} from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import resume from 'assets/img/Bill Moore Resume.pdf'
+import resume from 'assets/img/Billy Moore Resume.pdf'
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
 import {Card} from "@material-ui/core";
